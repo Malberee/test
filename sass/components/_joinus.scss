@@ -1,0 +1,83 @@
+.joinus__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.joinus__subtitle {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #23a6f0;
+	margin-bottom: 10px;
+}
+
+.joinus__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+
+.joinus__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	width: 469px;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+	margin-bottom: 80px;
+}
+
+.joinus__form {
+	display: flex;
+}
+
+.joinus__input {
+	width: 571px;
+	height: 58px;
+	background-color: #f9f9f9;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px 0px 0px 5px;
+	padding: 15px 20px;
+}
+
+.joinus__input::placeholder {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+	letter-spacing: 0.2px;
+	color: #737373;
+}
+
+.joinus__input:focus {
+	outline: none;
+}
+
+.joinus__sub-btn {
+	width: 117px;
+	height: 58px;
+	background-color: #23a6f0;
+	border-radius: 0px 5px 5px 0px;
+	border-color: transparent;
+
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 28px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #ffffff;
+
+	transition: background-color 150ms linear;
+}
+
+.joinus__sub-btn:hover {
+	background-color: #1d9be4;
+}
